@@ -15,6 +15,7 @@ import java.lang.*;
 public class Solution {
     public int hammingDistance(int x, int y) {
         /*Use xor to check which bits are different*/
+        /*Integer.bitCount --> count bits that are 1*/
         return Integer.bitCount(x ^ y);
     }
         
